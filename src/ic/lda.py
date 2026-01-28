@@ -128,3 +128,15 @@ def describe_document(
         result.append((int(topic_idx), words))
 
     return result
+
+
+def iter_text_files(folder: Path) -> list[Path]:
+    """Return all .txt files found recursively under a folder.
+
+    Args:
+        folder: Root folder to search.
+
+    Returns:
+        Sorted list of .txt file paths.
+    """
+    return sorted([p for p in folder.rglob("*.txt") if p.is_file()])  # noqa : W292

@@ -1,0 +1,4 @@
+# file: /home/hamadygackou777/ic/src/ic/visualization.py
+# hypothesis_version: 6.151.3
+
+[0.01, 1.0, 1.2, 4.0, 10.0, ', ', 'Bytes', 'Characters', 'Count', 'Line index', 'Probability', 'Topic id', 'off', 'pca', 'replace', 't-SNE 1', 't-SNE 2', 'utf-8']

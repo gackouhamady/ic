@@ -44,6 +44,14 @@ ic.ng20 module
    :show-inheritance:
    :undoc-members:
 
+ic.visualization module
+-----------------------
+
+.. automodule:: ic.visualization
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 Module contents
 ---------------
 

@@ -1,0 +1,4 @@
+# file: /home/hamadygackou777/ic/src/ic/command_line.py
+# hypothesis_version: 6.151.3
+
+['--category', '--doc', '--file', '--model', '--model-out', '--n', '--out', '--texts', '--topics', '.lines.png', '.topics.png', 'INFO', 'Model saved to %s', 'Number of docs', 'Number of topics', 'Output folder', 'Output pickle path', 'Path to input file', 'Path to model pickle', 'doc_lengths.png', 'lda_topics.png', 'lda_tsne.png', 'replace', 'utf-8']

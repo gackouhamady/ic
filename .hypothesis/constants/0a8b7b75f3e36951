@@ -1,0 +1,4 @@
+# file: /home/hamadygackou777/ic/src/ic/logging_config.py
+# hypothesis_version: 6.151.3
+
+['%Y-%m-%d %H:%M:%S', 'INFO']
