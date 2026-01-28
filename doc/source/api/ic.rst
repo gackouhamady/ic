@@ -20,6 +20,22 @@ ic.lda module
    :show-inheritance:
    :undoc-members:
 
+ic.linecount module
+-------------------
+
+.. automodule:: ic.linecount
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+ic.logging\_config module
+-------------------------
+
+.. automodule:: ic.logging_config
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 ic.ng20 module
 --------------
 

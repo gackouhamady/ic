@@ -1,5 +1,4 @@
 """LDA Modeling Module."""
-
 from __future__ import annotations
 
 import pickle
@@ -8,6 +7,10 @@ from pathlib import Path
 
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
+
+
+import logging
+logger = logging.getLogger(__name__)
 
 
 @dataclass

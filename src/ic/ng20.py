@@ -2,6 +2,8 @@
 from __future__ import annotations
 from pathlib import Path
 from sklearn.datasets import fetch_20newsgroups
+import logging
+logger = logging.getLogger(__name__)
 
 
 def export_ng20_category(category: str, n_docs: int, out_dir: Path) -> Path:  # noqa : E501

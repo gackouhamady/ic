@@ -3,6 +3,8 @@ import argparse
 from pathlib import Path
 from ic.ng20 import export_ng20_category
 from ic.lda import train_lda_from_folder, save_model, load_model, describe_document  # noqa: E501
+from ic.logging_config import configure_logging
+configure_logging("INFO")
 
 def ng20_export_app():  # noqa : E302 
     parser = argparse.ArgumentParser(description="Export NG20 category to text files.")  # noqa : E501
