@@ -11,8 +11,24 @@ CLI tools for Newsgroups analysis.
 
 
 ## Install  setup
+### Local install from GitHub (Linux/macOS)
+
 ```bash
+git clone https://github.com/gackouhamady/ic.git
+cd ic
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -e ".[dev]"
+source .venv/bin/activate
+python -m pip install -U pip
+python -m pip install -e ".[dev]"
+```
+
+### Local install from GitHub (Windows PowerShell)
+
+```powershell
+git clone https://github.com/gackouhamady/ic.git
+cd ic
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -U pip
+python -m pip install -e ".[dev]"
 ```
