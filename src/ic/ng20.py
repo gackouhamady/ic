@@ -3,7 +3,8 @@ from __future__ import annotations
 from pathlib import Path
 from sklearn.datasets import fetch_20newsgroups
 
-def export_ng20_category(category: str, n_docs: int, out_dir: Path) -> Path:
+
+def export_ng20_category(category: str, n_docs: int, out_dir: Path) -> Path:  # noqa : E501
     """Exports N documents from a specific NG20 category to text files.
 
     Args:
@@ -14,7 +15,7 @@ def export_ng20_category(category: str, n_docs: int, out_dir: Path) -> Path:
     Returns:
         Path: The directory where files were saved (out_dir/category).
     """
-    data = fetch_20newsgroups(subset='train', categories=[category], remove=('headers', 'footers', 'quotes'))
+    data = fetch_20newsgroups(subset='train', categories=[category], remove=('headers', 'footers', 'quotes'))  # noqa : E501
     target_dir = out_dir / category
     target_dir.mkdir(parents=True, exist_ok=True)
 
@@ -22,5 +23,5 @@ def export_ng20_category(category: str, n_docs: int, out_dir: Path) -> Path:
     for i in range(limit):
         text = data.data[i]
         (target_dir / f"{i}.txt").write_text(text, encoding="utf-8")
-    
+
     return target_dir

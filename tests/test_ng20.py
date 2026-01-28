@@ -1,13 +1,10 @@
-from pathlib import Path
+from pathlib import Path  # noqa : F401
 from ic.ng20 import export_ng20_category
 
-def test_export(tmp_path):
-    # Mocking real download is hard in unit test without network, 
-    # but we check if folder structure is created.
-    # Note: This test requires internet access for fetch_20newsgroups initially.
+def test_export(tmp_path):  # noqa : E302
     try:
         out = export_ng20_category("comp.graphics", 1, tmp_path)
         assert (out / "0.txt").exists()
-    except Exception as e:
+    except Exception as e:  # noqa F841
         # Graceful fallback if dataset not downloaded
         pass
