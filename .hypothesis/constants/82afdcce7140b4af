@@ -1,0 +1,4 @@
+# file: /home/hamadygackou777/ic/src/ic/lda.py
+# hypothesis_version: 6.151.3
+
+[0.95, '*.txt', 'english', 'n_topics must be > 0', 'n_words must be > 0', 'rb', 'replace', 'utf-8', 'wb']

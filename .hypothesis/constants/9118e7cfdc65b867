@@ -1,0 +1,4 @@
+# file: /home/hamadygackou777/ic/src/ic/command_line.py
+# hypothesis_version: 6.151.3
+
+['--category', '--doc', '--model', '--model-out', '--n', '--out', '--texts', '--topics', 'Number of docs', 'Number of topics', 'Output folder', 'Output pickle path', 'Path to model pickle', 'replace', 'utf-8']
